@@ -20,11 +20,11 @@ search.app:
 
 # How access to a record is determined
 
-There are different ways to obtain access to a particular record in customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). To be able to do a certain action with an table (Create, Read, Write, Delete, Append, Append to, Assign, Share), two major checks are done: privilege and access checks. 
+There are different ways to obtain access to a particular record in customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). To be able to do a certain action with a table (Create, Read, Write, Delete, Append, Append to, Assign, Share), two major checks are done: privilege and access checks. 
  
 ## Privilege check
  
-The privilege check is the first barrier that needs to be passed in order to do a certain action with a record of an table. The privilege checks validate that the user has the required privilege for that table. For each table, whether out of the box or custom, there exist different privileges to provide interaction capabilities with the records of that type. 
+The privilege check is the first barrier that needs to be passed in order to do a certain action with a record of a table. The privilege checks validate that the user has the required privilege for that table. For each table, whether out of the box or custom, there exist different privileges to provide interaction capabilities with the records of that type. 
 
 For example, for Account, the privileges are:
 
